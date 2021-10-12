@@ -16,6 +16,7 @@ data:
       inactivity: 10m
       quadFactor: 3
       weaponRespawn: 3
+      singlePlayerSkill: 2
     server:
       hostname: "quakekube"
       maxClients: 12
