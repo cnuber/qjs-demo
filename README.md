@@ -1,2 +1,2 @@
 # qjs-demo
-QuakeJS demo
+Manifests for QuakeJS 
