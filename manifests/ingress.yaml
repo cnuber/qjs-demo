@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: qjs-ingress
+  namespace: qjs
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /boomstick
+        pathType: Prefix
+        backend:
+          service:
+            name: quake
+            port:
+              number: 8080
