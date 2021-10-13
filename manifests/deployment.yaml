@@ -12,7 +12,7 @@ spec:
     metadata:
       labels:
         run: quake
-        gitops: demo
+        sightplan: demo
       annotations:
         prometheus.io/scrape: 'true'
         prometheus.io/port: '8080'
