@@ -5,7 +5,7 @@ resources:
 - deployment.yaml
 - service.yaml
 configMapGenerator:
-- name: qjsConfigMap
+- name: qjsconfigmap
   files:
     # configfile is used as key
     - configs/configmap.yaml
