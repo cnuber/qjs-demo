@@ -3,5 +3,9 @@ kind: Kustomization
 namespace: qjs
 resources:
 - deployment.yaml
-- configmap.yaml
 - service.yaml
+configMapGenerator:
+- name: qjsConfigMap
+  files:
+    # configfile is used as key
+    - configs/configmap.yaml
