@@ -4,8 +4,10 @@ namespace: qjs
 resources:
 - deployment.yaml
 - service.yaml
+generatorOptions:
+  disableNameSuffixHash: true
 configMapGenerator:
-- name: qjsconfigmap
+- name: quake3-server-config 
   files:
     # configfile is used as key
     - configs/configmap.yaml
