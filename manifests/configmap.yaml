@@ -5,10 +5,10 @@ metadata:
   namespace: qjs
 data:
   config.yaml: |
-    fragLimit: 25
+    fragLimit: 5
     timeLimit: 15m
     bot:
-      minPlayers: 3
+      minPlayers: 5
     game:
       motd: "Welcome to Critical Stack"
       type: FreeForAll
